@@ -2,24 +2,28 @@
   href: index.md
 - name: Overview
   items:
-  - name: About Site Recovery
+  - name: About Zerto
     href: zerto-overview.md
-  - name: What's new in Site Recovery
+  - name: What's new in Zerto
     href: zerto-whats-new.md
   - name: Release Notes
     items:
     - name: 6.5 Update 3
-      herf: release-notes/6_5_u3.md  
+      herf: release-notes-6-5-u3.md  
     - name: 6.5 Update 2
-      herf: release-notes/6_5_u2.md        
+      herf: release-notes-6-5-u2.md        
     - name: 6.5 Update 1
-      herf: release-notes/6_5_u1.md  
+      herf: release-notes-6-5-u1.md  
     - name: 6.5
-      herf: release-notes/6_5.md 
+      herf: release-notes-6-5.md 
     - name: 6.0 Update 3
-      herf: release-notes/6_0_u3.md  
+      herf: release-notes-6-0-u3.md  
     - name: 6.0 Update 2
-      herf: release-notes/6_0_u2.md 
+      herf: release-notes-6-0-u2.md 
+    - name: 6.0 Update 2
+      herf: release-notes-6-0-u3.md  
+    - name: 6.0 Update 1
+      herf: release-notes-6-0-u2.md 
 - name: Quickstarts
   expanded: true
   items:
