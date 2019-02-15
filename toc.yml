@@ -1,0 +1,14 @@
+﻿- name: Home
+  href: index.md
+- name: Zerto Replicaiton
+  href: zerto/
+  homepage: zerto/index.md
+- name: Analytics
+  href: analytics/
+  homepage: analytics/index.md
+- name: REST API
+  href: restapi/
+  homepage: restapi/index.md
+- name: PowerShell
+  href: powershell/
+  homepage: powershell/index.md
