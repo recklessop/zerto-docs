@@ -2,12 +2,30 @@
   "build": {
     "content": [
       {
-        "files": [ "analytics/**/*.md", "*.md", "toc.yml", "powershell/**/*.md", "restapi/**/*.md", "zerto/**/*.md" ]
+        "files": [ 
+          "*.md", 
+          "toc.yml", 
+          "analytics/**/*.md",
+          "analytics/**/*.yml",
+          "powershell/**/*.md", 
+          "powershell/**/*.yml",
+          "restapi/**/*.md", 
+          "restapi/**/*.yml",
+          "zerto/**/*.md",
+          "zerto/**/*.yml"
+          ]
       }
     ],
     "resource": [
       {
-        "files": [ "media/**", "analytics/images/**", "powershell/images/**", "restapi/images/**", "zerto/images/**", "*.png", "*.ico"]
+        "files": [ 
+          "media/**", 
+          "analytics/images/**", 
+          "powershell/images/**", 
+          "restapi/images/**", 
+          "zerto/images/**", 
+          "*.png", 
+          "*.ico"]
       }
     ],
     "globalMetadata": {
