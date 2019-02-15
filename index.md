@@ -37,41 +37,27 @@ Log-in to [myZerto](https://www.zerto.com/myzerto/)
 - Submit a support case at https://www.zerto.com/myzerto/support/
 - For immediate assistance on a live Severity-1 production issue call the Zerto Support Line in your area
 
-United States +1-866-271-3145
+  - United States +1-866-271-3145
+  - United Kingdom +44-800-088-5495
+  - Canada +1-866-271-3145
+  - Australia +61-1800-466-227
+  - China +86-400-120-8535
+  - Germany +49-32221090005
 
-United Kingdom +44-800-088-5495
+- Below numbers are only available locally.
 
-Canada +1-866-271-3145
-
-Australia +61-1800-466-227
-
-China +86-400-120-8535
-
-Germany +49-32221090005
-
-* Below numbers are only available locally.
-
-China +10-800-713-1114(N)
-
-China +10-800-130-1074(S)
-
-Germany +0800-184-4995
-
-Indonesia +001-803-015-203-9790
-
-Taiwan +00801-14-7242
-
-South Korea +003-0813-1992
-
-India +000-800-100-4056
-
-Japan +0800-111-9335
-
-Hong Kong +800-905-393
-
-Singapore +800-492-2306
+  - China +10-800-713-1114(N)
+  - China +10-800-130-1074(S)
+  - Germany +0800-184-4995
+  - Indonesia +001-803-015-203-9790
+  - Taiwan +00801-14-7242
+  - South Korea +003-0813-1992
+  - India +000-800-100-4056
+  - Japan +0800-111-9335
+  - Hong Kong +800-905-393
+  - Singapore +800-492-2306
 
 ## Contributing to Zerto Docs
 
-* Submit a pull request
-* open an issue
+- Submit a pull request
+- open an issue
