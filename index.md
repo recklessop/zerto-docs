@@ -1,4 +1,3 @@
-![zerto](media/Zerto-Logo_RGB2.png)
 # Zerto Docs
 
 ## What is Zerto Virtual Replication
@@ -11,7 +10,7 @@ Zerto Virtual Replication is installed in both the protected and the recovery si
 
 You configure replication by first pairing the site with the virtual machines to be protected, with a recovery site. You then define what virtual machines you want replicated in consistency groups, where the virtual machines in a group comprise the application and data you want to protect. You can group different virtual machines together or keep them separate. By creating different replication groups, you can customize the replication requirements for each group to better optimize the recovery plan.
 
-Disaster recovery is based on the premise that you will want to recover with a minimum RPO. However, to enable full recovery in cases such as virus attacks, Zerto Virtual Replication provides the ability to recover to a point in time up to 30 days prior to the disaster. When recovery earlier than 30days is required, Zerto Virtual Replication provides an extended recovery, using a Long Term Retention process mechanism that enables you to recover to a recovery site based on daily, weekly or monthly retention sets, going as far back as a year. The majority of the processing for both disaster recovery and extended recovery is done at the recovery site, minimizing the impact on the production site.
+Disaster recovery is based on the premise that you will want to recover with a minimum RPO. However, to enable full recovery in cases such as virus attacks, Zerto Virtual Replication provides the ability to recover to a point in time up to 30 days prior to the disaster. When recovery earlier than 30 days is required, Zerto Virtual Replication provides an extended recovery, using a Long Term Retention process mechanism that enables you to recover to a recovery site based on daily, weekly or monthly retention sets, going as far back as a year. The majority of the processing for both disaster recovery and extended recovery is done at the recovery site, minimizing the impact on the production site.
 
 ## Support
 
