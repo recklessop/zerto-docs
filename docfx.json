@@ -13,7 +13,7 @@
     "globalMetadata": {
       "_appTitle": "Zerto Docs",
       "_enableSearch": true,
-      "_appLogoPath": "media/Zerto-Logo_RGB2.png"
+      "_appLogoPath": "media/zerto-logo.png"
     },
     "markdownEngineName": "markdig",
     "dest": "_site",
