@@ -1,6 +1,8 @@
 ![zerto](media/Zerto-Logo_RGB2.png)
 # Zerto Docs
 
+[![Build status](https://dev.azure.com/ZertoTA/zerto-docs/_apis/build/status/zerto-docs-publish)](https://dev.azure.com/ZertoTA/zerto-docs/_build/latest?definitionId=-1)
+
 ## What is Zerto Virtual Replication
 
 Zerto Virtual Replication provides a business continuity (BC) and disaster recovery (DR) solution in a virtual environment, providing near real-time replication, with write-order fidelity, with minimal impact on product workloads. Fully automated orchestration delivers failover, failback, and reverse protection in one click. Non-disruptive disaster recovery testing gives you confidence that your DR solution will work predictably and consistently. Consistency groups ensure all virtual machines that comprise an application are protected in the exact same manner no matter where they are in the environment. 
