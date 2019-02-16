@@ -7,22 +7,6 @@
     href: zerto-overview.md
   - name: What's new in Zerto
     href: zerto-whats-new.md
-- name: Release Notes
-  items:
-  - name: "6.5 Update 3"
-    herf: release-notes-6-5-u3.md  
-  - name: "6.5 Update 2"
-    herf: release-notes-6-5-u2.md        
-  - name: Zerto 6.5 Update 1
-    herf: release-notes-6-5-u1.md  
-  - name: "6.5 GA"
-    herf: releasenotes65ga.md 
-  - name: "6.0 Update 3"
-    herf: release-notes-6-0-u3.md  
-  - name: "6.0 Update 2"
-    herf: release-notes-6-0-u2.md  
-  - name: "6.0 Update 1"
-    herf: release-notes-6-0-u1.md 
 - name: Quickstarts
   items:
   - name: Replicate an VM to Multiple Recovery Sites
@@ -31,11 +15,13 @@
     href: azure-to-azure-quickstart.md
 - name: Tutorials
   items:
-  - name: Azure VM disaster recovery to Azure
+  - name: VMware disaster recovery
     items:
-  - name: VMware VM disaster recovery to Azure
+  - name: Hyper-V disaster recovery
     items:
-  - name: Hyper-V VM disaster recovery to Azure
+  - name: Azure disaster recovery
+    items:
+  - name: AWS failback
     items:
   - name: Migrate to Azure
     items:
