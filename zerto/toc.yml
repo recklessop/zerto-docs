@@ -31,11 +31,13 @@
     href: azure-to-azure-quickstart.md
 - name: Tutorials
   items:
-  - name: Azure VM disaster recovery to Azure
+  - name: VMware disaster recovery
     items:
-  - name: VMware VM disaster recovery to Azure
+  - name: Hyper-V disaster recovery
     items:
-  - name: Hyper-V VM disaster recovery to Azure
+  - name: Azure disaster recovery
+    items:
+  - name: AWS failback
     items:
   - name: Migrate to Azure
     items:
