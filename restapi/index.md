@@ -34,6 +34,54 @@ A session identifier, x-zerto-session, is returned as part of the response heade
 The APIs can be consumed by applications implemented in different technologies in a stateless manner.
 Data returned is formatted either as JSON or as XML as set by the consumer. By default, data that is returned for the v1 APIs is formatted as JSON.
 
+## Listing the Available APIs
+
+Running the following API returns a list of available APIs under /v1:
+
+```http
+https://zvm_ip:port/v1/
+```
+
+The following output is generated:
+
+```http
+[{"href":"https:\/\/10.100.0.51:9669\/v1\/events","rel":"down","type":"IEventsService"},{"href":"https:\/\/10.100.0.51:9669\/v1\/vpgs","rel":"down","type":"IVpgService"},{"href":"https:\/\/10.100.0.51:9669\/v1\/vms","rel":"down","type":"IVmService"},{"href":"https:\/\/10.100.0.51:9669\/v1\/vras","rel":"down","type":"IVraService"},{"href":"https:\/\/10.100.0.51:9669\/v1\/peersites","rel":"down","type":"IPeerSitesService"},{"href":"https:\/\/10.100.0.51:9669\/v1\/session","rel":"down","type":"ISessionService"},{"href":"https:\/\/10.100.0.51:9669\/v1\/tasks","rel":"down","type":"ITasksService"},{"href":"https:\/\/10.100.0.51:9669\/v1\/serviceprofiles","rel":"down","type":"IServiceProfilesService"},{"href":"https:\/\/10.100.0.51:9669\/v1\/virtualizationsites","rel":"down","type":"IVirtualizationSitesService"},{"href":"https:\/\/10.100.0.51:9669\/v1\/zorgs","rel":"down","type":"IZorgsService"},{"href":"https:\/\/10.100.0.51:9669\/v1\/localsite","rel":"down","type":"ILocalSiteService"},{"href":"https:\/\/10.100.0.51:9669\/v1\/alerts","rel":"down","type":"IAlertsService"}]
+```
+
+Where:
+
+| parameter | Description |
+|---|---|
+| zvm_ip | The IP address of the Zerto Virtual Manager where the API is run. |
+| port | The port to access the Zerto Virtual Manager. The default port is 9669. |
+| href | The URL used. |
+| rel | The next path level for the API relative to the current path. |
+| type | The API interface service. |
+
+## Filtering Information Retrieved By an API
+
+Information retrieved by many of the APIs can be filtered. The filter parameters are optional and any combination of these parameters is valid. When more than one filter is applied, the AND operand is used. The Help page lists the filters for a specific API. For details, refer to Getting Help for an API.
+
+## Getting Help for an API
+
+Help about each v1 API is available, using the following URL:
+
+```http
+https://zvm_ip:port/v1/API/help
+```
+
+Where:
+
+| parameter | Description |
+|---|---|
+| zvm_ip | The IP address of the Zerto Virtual Manager where the API is run. |
+| port | The port to access the Zerto Virtual Manager. The default port is 9669. |
+| API | The name of the API for which help is required, for example events or vras. |
+
+The available methods are returned. For example, the vpgs API has the following response:
+
+[!INCLUDE[API Help](images/Help1.jpg)]
+
 
 
 # Managing VPGs
