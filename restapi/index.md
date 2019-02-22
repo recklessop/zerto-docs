@@ -80,7 +80,7 @@ Where:
 
 The available methods are returned. For example, the vpgs API has the following response:
 
-![API Help](images/Help1.jpg)]
+[![API Help](images/Help1.jpg)](images/Help1.jpg)
 
 
 
