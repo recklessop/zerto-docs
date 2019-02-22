@@ -18,8 +18,8 @@ When passing a URL in a browser, you require a security certificate. In Microsof
 
 To test the APIs, Zerto recommends using a REST client, such as the following:
 
-- For Google Chrome: Postman, from http://www.getpostman.com/.
-- For Microsoft Internet Explorer and Mozilla FireFox: RESTClient, from http://www.restclient.org.
+- For Google Chrome: [Postman](http://www.getpostman.com/)
+- For Microsoft Internet Explorer and Mozilla FireFox: [RESTClient](http://www.restclient.org)
 
 ## Starting a Session
 
