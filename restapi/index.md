@@ -85,4 +85,3 @@ The available methods are returned. For example, the vpgs API has the following 
 
 
 # Managing VPGs
-
