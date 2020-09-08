@@ -11,6 +11,8 @@
           "powershell/**/*.yml",
           "restapi/**/*.md", 
           "restapi/**/*.yml",
+          "github/**/*.md", 
+          "github/**/*.yml",
           "zerto/**/*.md",
           "zerto/**/*.yml"
           ]

@@ -23,7 +23,7 @@ To test the APIs, Zerto recommends using a REST client, such as the following:
 
 ### Starting a Session
 
-Using the username and password either for the Windows machine where the Zerto Virtual Manager is installed or for the hypervisor manager, VMware vCenter Server or Microsoft SCVMM, accessed by the Zerto Virtual Manager, you can establish a session by posting the following URL:
+Using the user and password either for the Windows machine where the Zerto Virtual Manager is installed or for the hypervisor manager, VMware vCenter Server or Microsoft SCVMM, accessed by the Zerto Virtual Manager, you can establish a session by posting the following URL:
 
 ```http
 https://zvm_ip:port/v1/session/add
@@ -95,3 +95,4 @@ https://zvm_ip:port/v1/session
 
 > [!NOTE]
 > If a session is dormant for thirty minutes, the session is automatically terminated.
+# Managing VPGs

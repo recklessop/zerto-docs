@@ -12,3 +12,6 @@
 - name: PowerShell
   href: powershell/
   homepage: powershell/index.md
+- name: GitHub Repos
+  href: github/
+  homepage: github/index.md
