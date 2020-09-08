@@ -2,7 +2,7 @@
 
 The Zerto Virtual Replication RESTful API enables you to manage Zerto Virtual Replication programmatically. The REST APIs provide a way to automate many of the tasks required to manage DR, without having to use the Zerto User Interface. For related documentation, refer to myZerto > [Technical Documentation](https://www.zerto.com/myzerto/technical-documentation/)
 
-# Using the APIs
+## Using the APIs
 
 All APIs are exposed over HTTPS.
 
@@ -21,7 +21,7 @@ To test the APIs, Zerto recommends using a REST client, such as the following:
 - For Google Chrome: [Postman](http://www.getpostman.com/)
 - For Microsoft Internet Explorer and Mozilla FireFox: [RESTClient](http://www.restclient.org)
 
-## Starting a Session
+### Starting a Session
 
 Using the username and password either for the Windows machine where the Zerto Virtual Manager is installed or for the hypervisor manager, VMware vCenter Server or Microsoft SCVMM, accessed by the Zerto Virtual Manager, you can establish a session by posting the following URL:
 
@@ -34,7 +34,7 @@ A session identifier, x-zerto-session, is returned as part of the response heade
 The APIs can be consumed by applications implemented in different technologies in a stateless manner.
 Data returned is formatted either as JSON or as XML as set by the consumer. By default, data that is returned for the v1 APIs is formatted as JSON.
 
-## Listing the Available APIs
+### Listing the Available APIs
 
 Running the following API returns a list of available APIs under /v1:
 
@@ -58,11 +58,11 @@ Where:
 | rel | The next path level for the API relative to the current path. |
 | type | The API interface service. |
 
-## Filtering Information Retrieved By an API
+### Filtering Information Retrieved By an API
 
 Information retrieved by many of the APIs can be filtered. The filter parameters are optional and any combination of these parameters is valid. When more than one filter is applied, the AND operand is used. The Help page lists the filters for a specific API. For details, refer to Getting Help for an API.
 
-## Getting Help for an API
+### Getting Help for an API
 
 Help about each v1 API is available, using the following URL:
 
@@ -82,7 +82,16 @@ The available methods are returned. For example, the vpgs API has the following 
 
 [![API Help](images/Help1.jpg)](images/Help1.jpg)
 
+Drilling-down on a method returns an example response in both XML and JSON formats and the complete XML schema. For example, the /v1/ GET method returns the following response:
 
+[![API Help2](images/Help2.jpg)](images/Help2.jpg)
 
-# Managing VPGs
+### Ending a Session
+End a session with the following URL and the HTTP DELETE request.
 
+```http
+https://zvm_ip:port/v1/session
+```
+
+> [!NOTE]
+> If a session is dormant for thirty minutes, the session is automatically terminated.

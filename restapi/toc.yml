@@ -1,6 +1,6 @@
 ﻿- name: Zerto REST API Intro
   href: index.md
-- name: Quickstarts
+- name: Managing VPGs
   expanded: true
   items:
   - name: Replicate an VM to Multiple Recovery Sites
